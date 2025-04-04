@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1> Welcome to Student Management System </h1>
+    <hr/>
+    <div class="container shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="card" style="background-color: #e3f2fd;">
+            <div class="card-header">
+                <h4 class="card-title"> Registration Form</h4>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="first_name" class="form-label">First Name</label>
+                        <input type="text" name="first_name" class="form-control" maxlength="40" size="40">
+                    </div>
+                    <div class="mb-3">
+                        <label for="last_name" class="form-label">Last Name</label>
+                        <input type="text" name="last_name" class="form-control" maxlength="40" size="40">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" maxlength="40" size="40">
+                    </div>
+                    <div>
+                        <label for="emailaddress" class="form-label"> Email address</label>
+                        <input type="text" name="emailaddress" class="form-control" maxlength="40" size="40">
+                    </div>
+                    <div>
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" maxlength="40" size="40">
+                    </div>
+                    <div>
+                        <label for="gender" class="form-label"> Gender </label> 
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="female" id="male">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="female" id="female" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Female
+                        </label>
+                      </div>
+                      <div>
+                        <input type="submit" class="btn btn-primary position-relative start-50 translate-middle-x" name="Save">
+                        <input type="reset" class="btn btn-secondary position-relative start-50 translate-middle-x" name="Clear Form">
+                      </div>
+                </form>
+            </div>
+            <br>
+            <!-- <input type="text" name="first_name" placeholder="First Name" size="50" id="first_name"/><br>
+            <input type="text" name="last_name" placeholder="Last Name" size="50" id="last_name"/><br>
+            <input type="text" name="email" placeholder="Email" size="50" id="email"/><br>
+            <input type="button" value="Add Student" id="add_student"/> -->
+        </div>
+    </div>
+{% endblock %}

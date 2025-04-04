@@ -1,0 +1,4 @@
+Name|Quantity|Price
+jimmy|12|4.0
+adasd|98|1.0
+addd|12|23.0

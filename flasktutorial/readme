@@ -1,0 +1,16 @@
+Installation and config of venv and flask
+
+1. create folder
+2. open folder in vsc
+3. open terminal and run "python -m venv virtual"
+4. to activate venv "cd virtual\Scripts" and type "activate"
+5. back to project root "cd ../.."
+8. Install flask in venv "pip install Flask"
+9. To deactivate "cd virtual\Scripts" and type "deactivate"
+
+Developing web using flask
+
+1. create file
+2. make sure in the terminal app.py is
+3. run "flask run" and it will start server at port 5000
+4. open web and type the address (localhost:5000)
